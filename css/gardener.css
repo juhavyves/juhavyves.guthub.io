@@ -93,12 +93,13 @@ header {
   /* background-color: palegreen; */
   position: absolute;
   width: 100vw;
-  height: 48vw;
+  /* height: 48vw; */
+  height: calc(100vh-20vw);
   /* white-space: nowrap; */
 
   overflow-y: scroll;
   top: 4.5vw;
-  bottom: 0;
+  bottom: 5vw;
   left: 0;
 
 }

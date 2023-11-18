@@ -105,14 +105,20 @@ header {
 }
 .arrow img{
   position: fixed;
-  top: 17vw;
+  /* top: 17vw; */
+  top: 50%;
+  transform: translate(0, -50%);
+
   right: 0;
   height: 20vw;
 }
 
 .middleline {
   position: absolute;
-  top:27vw;
+  /* top:27vw; */
+  top: 50%;
+  transform: translate(0, -50%);
+
   width: 100vw;
 
 }
@@ -196,11 +202,13 @@ header {
   /* display: flex;
   justify-content: center; */
   width: 100vw;
-  height: 60vw;
+  /* height: 60vw; */
+  height: calc(100vh-20vw);
+
   /* white-space: nowrap; */
 
   overflow-x: scroll;
-  bottom: 0;
+  bottom: 5vw;
   top: 4.5vw;
   left: 0;
 }
@@ -215,13 +223,18 @@ header {
   position: absolute;
   width: 58vw;
   /* top: 1vw; */
+  top: 50%;
+  transform: translate(0, -50%);
   left: 23vw;
 }
 
 .score1 {
   position: absolute;
   width: 56vw;
-  top: 19vw;
+  /* top: 19vw; */
+  top: 50%;
+  transform: translate(0, -50%);
+
   left: 77vw;
 }
 
@@ -229,13 +242,18 @@ header {
   position: absolute;
   width: 40vw;
   /* top: 1vw; */
+  top: 50%;
+  transform: translate(0, -50%);
+
   left: 132.4vw;
 }
 
-.musicscore1-1 {
+/* .musicscore1-1 {
   position: absolute;
   width: 13.4vw;
-  top: 41vw;
+  top: 81%;
+  transform: translate(0, -81%);
+
   left: 132.4vw;
 
 }
@@ -252,7 +270,7 @@ header {
   top: 41vw;
   left: 159vw;
 
-}
+} */
 
 
 .score2 {
@@ -260,14 +278,20 @@ header {
   width: 56vw;
   top: 19vw;
   left: 172.2vw;
+  top: 50%;
+  transform: translate(0, -50%);
+
 }
 .soundflower {
   position: absolute;
   width: 50.6vw;
   /* top: 1vw; */
+  top: 50%;
+  transform: translate(0, -50%);
+
   left: 210vw;
 }
-.musicscore2-1 {
+/* .musicscore2-1 {
   position: absolute;
   width: 13.4vw;
   top: 41vw;
@@ -294,13 +318,16 @@ header {
   top: 41vw;
   left: 248vw;
 
-}
+} */
 
 .score3 {
   position: absolute;
   width: 56vw;
   top: 17vw;
   left: 258.2vw;
+  top: 50%;
+  transform: translate(0, -50%);
+
 }
 
 .nightfall1 {
@@ -308,12 +335,16 @@ header {
   width: 51vw;
   /* top: 1vw; */
   left: 313.4vw;
+  top: 50%;
+  transform: translate(0, -50%);
+
 }
-.musicscore3-1 {
+/* .musicscore3-1 {
   position: absolute;
   width: 13.4vw;
   top: 41vw;
   left: 312.9vw;
+  
 
 }
 .musicscore3-2 {
@@ -336,7 +367,7 @@ header {
   top: 41vw;
   left: 351.9vw;
 
-}
+} */
 
 
 
@@ -348,6 +379,9 @@ header {
   width: 40vw;
   top: 15vw;
   left: 364.2vw;
+  top: 50%;
+  transform: translate(0, -50%);
+
 }
 
 .nightfall2 {
@@ -355,8 +389,11 @@ header {
   width: 51vw;
   /* top: 1vw; */
   left: 403.3vw;
+  top: 50%;
+  transform: translate(0, -50%);
+
 }
-.musicscore4-1 {
+/* .musicscore4-1 {
   position: absolute;
   width: 13.4vw;
   top: 41vw;
@@ -383,25 +420,34 @@ header {
   top: 41vw;
   left: 441.7vw;
 
-}
+} */
 
 .score5 {
   position: absolute;
   width: 40vw;
   top: 17vw;
   left: 449.5vw;
+  top: 50%;
+  transform: translate(0, -50%);
+
 }
 .swanlake {
   position: absolute;
   width: 40vw;
   /* top: 1vw; */
   left: 480.3vw;
+  top: 50%;
+  transform: translate(0, -50%);
+
 }
-.musicscore5-1 {
+/* .musicscore5-1 {
   position: absolute;
   width: 13.4vw;
   top: 41vw;
   left: 480.3vw;
+  top: 50%;
+  transform: translate(0, -50%);
+
 
 }
 .musicscore5-2 {
@@ -417,11 +463,14 @@ header {
   top: 41vw;
   left: 507.1vw;
 
-}
+} */
 
 .score6 {
   position: absolute;
   width: 40vw;
   top: 19vw;
-  left: 505.3vw;
+  left: 500.3vw;
+  top: 50%;
+  transform: translate(0, -50%);
+
 }
